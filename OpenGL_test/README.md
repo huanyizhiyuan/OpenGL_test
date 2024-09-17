@@ -1,6 +1,20 @@
-# OpenGL尝试
+# lesson01——创建窗口
 ## 简介：
-学习OpenGL，主要是通过OpenGL去体会游戏引擎的原理，再入手Vulkan。
+通过学习GLFW库的基础内容，学习GLFW的工作原理以及视口，输入，渲染等概念。
 
-## 学习资源：
-LearnOpenGL.cn：https://learnopengl-cn.github.io/
+## 体验：
+visual studio非常不好用，有点垃圾了，受限太大了，有很多莫名其妙的规矩，
+很强大的IDE，但是没人用，没人用的强大？？？
+
+当然，这是第一课，很可能是我没有体会到visual studio的美妙之处。
+
+某种程度上Qt有点像这个，但是连Qt的教学都比这玩意多。
+
+## 效果：
+
+运行效果图：
+
+![这是一张图片](./images/1.png)
+
+美化效果图：
+![美化后](./images/2.png)
