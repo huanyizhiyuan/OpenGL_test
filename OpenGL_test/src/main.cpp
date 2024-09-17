@@ -40,12 +40,13 @@ int main()
     // 注册这个函数，告诉GLFW我们希望每当窗口大小调整的时候调用这个函数。
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
-    // 渲染循环，在我们希望程序关闭之前，一直运行程序。
     /*
+        渲染循环，在我们希望程序关闭之前，一直运行程序。
         1、glfwWindowShouldClose(window)：检查GLFW是否被要求退出。
         2、glfwPollEvents：检查有没有触发什么事件。
         3、glfwSwapBuffers：会交换颜色缓冲，简而言之就是绘制，并显示。
     */
+
     while (!glfwWindowShouldClose(window))
     {
         // 输入:检测用户动作
